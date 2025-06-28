@@ -1,0 +1,8 @@
+¿Por qué hashear contraseñas?
+Es una medida de seguridad para proteger la información sensible del usuario. Al aplicar un algoritmo de hashing, la contraseñoa se transforma en un valor irreconocible. Así, aunque alguien aceda a la base de datos, no podrá ver las contraseñas reales.
+
+Ventajas de usar SQLite en este proyecto
+Fácil de configurar ya que no requiere instalación de un servidor de base de datos separado.
+Rápido ideal para proyectos pequeños y medianos.
+Persistente guarda los datos en un archivo -db que puede moverse fácilmente.
+Integración simple con Python a través de módulo sqlite3.
